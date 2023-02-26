@@ -1,0 +1,9 @@
+﻿@{
+}
+
+@model List<CacheModel>
+
+@foreach(var item in Model)
+{
+    <p>Kategori Id: @item.Id, Kategori Adı: @item.KategoriAdi</p>
+}

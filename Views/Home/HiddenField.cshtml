@@ -1,0 +1,12 @@
+﻿@{
+}
+
+@model HiddenFieldModel
+
+<form action="/Home/HiddenField" method="post">
+    <input type="hidden" asp-for="Id" />
+    Adı:  <input type="text" asp-for="Adi" /> <br /> <br />
+    Yaşı: <input type="number" asp-for="Yasi" /> <br /><br />
+
+    <input type="submit" value="Gönder" />
+</form>
